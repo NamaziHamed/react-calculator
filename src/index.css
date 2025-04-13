@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+
+html , body{
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+html{
+  @apply bg-gradient-to-t from-zinc-900 via-gray-500 to-slate-950
+}
+
